@@ -13,6 +13,7 @@ The data architecture for this project follows Medallion Architecture Bronze, Si
 1.Bronze Layer: Stores raw data as-is from the source systems. Data is ingested from CSV Files into SQL Server Database.
 2.Silver Layer: This layer includes data cleansing, standardization, and normalization processes to prepare data for analysis.
 3.Gold Layer: Houses business-ready data modeled into a star schema required for reporting and analytics.
+
 --------
 
 📖 Project Overview
@@ -21,6 +22,7 @@ Data Architecture: Designing a Modern Data Warehouse Using Medallion Architectur
 ETL Pipelines: Extracting, transforming, and loading data from source systems into the warehouse.
 Data Modeling: Developing fact and dimension tables optimized for analytical queries.
 Analytics & Reporting: Creating SQL-based reports and dashboards for actionable insights.
+
 ---------
 
 🛠️ Important Links & Tools:
@@ -32,6 +34,7 @@ Git Repository
 DrawIO: Design data architecture, models, flows, and diagrams.
 Notion: Get the Project Template from Notion
 Notion Project Steps: Access to All Project Phases and Tasks.
+
 ---------
 
 🚀 Project Requirements
@@ -55,6 +58,8 @@ Sales Trends
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
 For more details, refer to docs/requirements.md.
+
+-------
 
 📂 Repository Structure
 data-warehouse-project/
@@ -80,4 +85,3 @@ data-warehouse-project/
 ├── LICENSE                             # License information for the repository
 ├── .gitignore                          # Files and directories to be ignored by Git
 └── requirements.txt                    # Dependencies and requirements for the project
-☕ Stay Connected
